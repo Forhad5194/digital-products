@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* This is logo and nav bar css part start  */
+
+.manus-container{
+    background-color: #424141;
+    padding: 20px;
+    color: #f8f8f8;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.manus-container .main-logo .logo-pic{
+    width: 120px;
+}
+.manu-bar{
+    display: flex;
+
+}
+.item{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .item:hover{
+    color: black;
+ }
+ /* This is logo and nav bar css part End  */
+
+ /* Banner part css start  */
+ .banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(../Images/img/new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .tittle{
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+ }
+ .description{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+ }
+ .btn{
+    background-color: #eb1717;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8f8f8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .b-img{
+    width: 600px;
+ }
+ /* Banner part css End  */
+ /* About us css part start  */
+ .text{
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   padding-top:35px;
+ }
+.about-container{
+   display: flex; 
+   justify-content: space-around; 
+   padding: 20px;
+}
+ .a-img{
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+ }
+ .about-info{
+   margin-top: 100px;
+    margin-bottom: 20px;
+ }
+ .about-info h1{
+   font-size: 30px;
+   font: weight 900px;;
+   color: black;
+ }
+ .about-info h1 p{
+   font-size: 20px;
+   font-weight: 900 ;
+   color: black;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   
+ }
+ .A-btn{
+   background-color: #eb1717;
+   border: none;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 7px;
+   font-size: 20px;
+   font-weight: 500;
+   color: #f8f8f8;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   
+ }
+ /* About us css part  End   */
+ /* Our services css part start  */
+ .card-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+ }
+ .o-text{
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   padding-top:35px;
+ }
+ .card{
+   width: 230px;
+   height: 260px;
+   background-color: #000000;
+   text-align: center;
+   padding: 20px;
+   box-shadow: 4px 4px 4px gray;
+   border-radius: 10px;
+ }
+ .c-icon{
+   width: 70px;
+ }
+ .card h2{
+   font-size: 25px;
+   color: white;
+   margin-top: 10px;
+ }
+ .card p{
+   font-size: 15px;
+   color: white;
+   margin-top: 10px;
+ }
+.card-btn{
+   background-color: gray;
+   border: none;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 7px;
+   font-size: 15px;
+   font-weight: 500;
+   color: #f8f8f8;
+   margin-top: 20px;
+   
+   
+  }
+ /* Our services css part  End   */
